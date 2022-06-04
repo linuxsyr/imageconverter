@@ -1,0 +1,23 @@
+IF you want to use drag and drop funktion, yout have to add this files:
+ajax.php
+custom.js
+style.css
+
+dont forget to add this code to index and do the important changes:
+__________________________________
+
+	<link rel="stylesheet" href="style.css" />
+<div id="drop_file_zone" ondrop="upload_file(event)" ondragover="return false">
+    <div id="drag_upload_file">
+        <p>Drop file here</p>
+        <p>or</p>
+        <p><input type="button" value="Select File" onclick="file_explorer();" /></p>
+        <input type="file" id="selectfile" />
+    </div>
+</div>
+<div class="img-content"></div>
+<script src="custom.js"></script>
+__________________________________
+
+
+
