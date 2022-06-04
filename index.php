@@ -16,7 +16,7 @@
 <div class="container">
 	
 	<div class="row">
-		<p>This free online tool allows files up to 50 MB.</p>
+		<p>Tool description</p>
 	</div>
 	
 	<div class='row' style='border: 1px solid #CCC; margin: 10px; padding: 10px; box-shadow: 2px 2px 0px 0px #CCC; border-radius: 10px; overflow: hidden;'>	
